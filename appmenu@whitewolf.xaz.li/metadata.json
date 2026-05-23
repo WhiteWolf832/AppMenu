@@ -1,0 +1,9 @@
+{
+  "uuid": "appmenu@whitewolf.xaz.li",
+  "name": "App Menu",
+  "description": "Configurable multi-menu launcher for the GNOME Shell / Zorin Taskbar panel.",
+  "shell-version": ["45", "46", "47"],
+  "url": "https://github.com/WhiteWolf832/AppMenu",
+  "settings-schema": "org.gnome.shell.extensions.appmenu",
+  "gettext-domain": "appmenu"
+}

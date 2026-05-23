@@ -1,0 +1,188 @@
+# AppMenu translation.
+# SPDX-License-Identifier: GPL-3.0-or-later
+# SPDX-FileCopyrightText: 2026 WhiteWolf <whitewolf@xaz.li>
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: appmenu 1.0\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Default accessibility / fallback label used by the panel button when
+#. the user has not given the menu a custom name.
+#: extension.js
+msgid "App Menu"
+msgstr "App-Menü"
+
+#. Right-click context menu entry that opens the preferences window.
+#: extension.js
+msgid "Preferences…"
+msgstr "Einstellungen…"
+
+#. Placeholder shown inside the popup when a menu exists but has no apps.
+#: extension.js
+msgid "No application configured"
+msgstr "Keine Anwendung konfiguriert"
+
+#. Preferences page title (Adw.PreferencesPage).
+#: prefs.js
+msgid "Menus"
+msgstr "Menüs"
+
+#. Title of the group that contains the list of configured menus.
+#: prefs.js
+msgid "Panel menus"
+msgstr "Panel-Menüs"
+
+#. Help text under the "Panel menus" group title.
+#: prefs.js
+msgid "Each menu appears as a button next to the Zorin menu."
+msgstr "Jedes Menü erscheint als Schaltfläche neben dem Zorin-Menü."
+
+#. Tooltip on the "+" button used to create a new menu.
+#: prefs.js
+msgid "Add a menu"
+msgstr "Menü hinzufügen"
+
+#. Default name proposed for a freshly created menu. The %d placeholder
+#. is the 1-based index of the new menu (Menu 1, Menu 2, …).
+#: prefs.js
+#, c-format
+msgid "Menu %d"
+msgstr "Menü %d"
+
+#. Title of the placeholder row shown when the user has no menus yet.
+#: prefs.js
+msgid "No menu"
+msgstr "Kein Menü"
+
+#. Subtitle of the placeholder row, instructing the user to use the +
+#. button shown in the group header.
+#: prefs.js
+msgid "Click + to create a menu."
+msgstr "Klicken Sie auf +, um ein Menü zu erstellen."
+
+#. Fallback display name used in the prefs when a menu's "name" field is
+#. empty (e.g., the user cleared the entry).
+#: prefs.js
+msgid "Menu"
+msgstr "Menü"
+
+#. Tooltip for the up-arrow button next to a menu / app row.
+#: prefs.js
+msgid "Move up"
+msgstr "Nach oben"
+
+#. Tooltip for the down-arrow button next to a menu / app row.
+#: prefs.js
+msgid "Move down"
+msgstr "Nach unten"
+
+#. Tooltip for the trash button on a menu row.
+#: prefs.js
+msgid "Delete this menu"
+msgstr "Dieses Menü löschen"
+
+#. Label of the entry row used to rename a menu.
+#: prefs.js
+msgid "Name"
+msgstr "Name"
+
+#. Label of the row that shows the menu's current icon and opens the
+#. icon chooser.
+#: prefs.js
+msgid "Icon"
+msgstr "Symbol"
+
+#. Button label inside the Icon row — opens the icon chooser dialog.
+#. Translation should be short (fits in a button).
+#: prefs.js
+msgid "Choose…"
+msgstr "Auswählen…"
+
+#. Section header above the list of apps assigned to a menu.
+#: prefs.js
+msgid "Applications"
+msgstr "Anwendungen"
+
+#. Tooltip on the trash button of an individual app row.
+#: prefs.js
+msgid "Remove"
+msgstr "Entfernen"
+
+#. Always-last row inside a menu's apps list — opens the app chooser.
+#: prefs.js
+msgid "Add an application…"
+msgstr "Anwendung hinzufügen…"
+
+#. Shown as the subtitle when the .desktop file referenced by an app row
+#. cannot be resolved (e.g., the application has been uninstalled).
+#: prefs.js
+msgid "Application not found"
+msgstr "Anwendung nicht gefunden"
+
+#. Subtitle of a menu's Applications header when no app is assigned.
+#: prefs.js
+msgid "None"
+msgstr "Keine"
+
+#. Subtitle of a menu's Applications header showing the app count. The
+#. singular / plural forms are used by ngettext based on the count.
+#: prefs.js
+#, c-format
+msgid "%d application"
+msgid_plural "%d applications"
+msgstr[0] "%d Anwendung"
+msgstr[1] "%d Anwendungen"
+
+#. Title of the modal dialog used to pick an application to add.
+#: prefs.js
+msgid "Add an application"
+msgstr "Anwendung hinzufügen"
+
+#. Placeholder text inside the search field of the app chooser.
+#: prefs.js
+msgid "Search an application…"
+msgstr "Anwendung suchen…"
+
+#. Title of the modal dialog used to pick an icon.
+#: prefs.js
+msgid "Choose an icon"
+msgstr "Symbol auswählen"
+
+#. Tooltip of the toggle button that filters the icon list to symbolic
+#. (monochrome) icons only.
+#: prefs.js
+msgid "Symbolic icons only"
+msgstr "Nur symbolische Symbole"
+
+#. Placeholder text inside the search field of the icon chooser.
+#: prefs.js
+msgid "Search an icon…"
+msgstr "Symbol suchen…"
+
+#. Shown under the search bar when no icon matches the query.
+#: prefs.js
+msgid "No icon found"
+msgstr "Kein Symbol gefunden"
+
+#. Shown when the filter matches more icons than the result cap.
+#. %1$d = number actually displayed, %2$d = total matches. The order
+#. of the two placeholders may be swapped if the target language reads
+#. more naturally that way.
+#: prefs.js
+#, c-format
+msgid "%1$d shown out of %2$d — refine your search"
+msgstr "%1$d von %2$d angezeigt — verfeinern Sie die Suche"
+
+#. Result count under the icon chooser's search bar. Singular / plural
+#. forms used by ngettext.
+#: prefs.js
+#, c-format
+msgid "%d icon"
+msgid_plural "%d icons"
+msgstr[0] "%d Symbol"
+msgstr[1] "%d Symbole"

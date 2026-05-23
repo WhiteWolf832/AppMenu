@@ -1,0 +1,16 @@
+/* SPDX-License-Identifier: GPL-3.0-or-later
+ * SPDX-FileCopyrightText: 2026 WhiteWolf <whitewolf@xaz.li>
+ */
+
+/* The default .system-status-icon rule forces 16px; override it. */
+.appmenu-panel-icon {
+    icon-size: 32px;
+}
+
+.appmenu-app-icon {
+    margin-right: 10px;
+}
+
+.appmenu-app-label {
+    font-weight: normal;
+}

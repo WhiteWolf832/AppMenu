@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.appmenu" path="/org/gnome/shell/extensions/appmenu/">
+    <key name="menus" type="s">
+      <default>'[]'</default>
+      <summary>Liste des menus</summary>
+      <description>Tableau JSON de menus. Chaque entrée a id (string), name (string), iconName (string), apps (array de desktop file IDs).</description>
+    </key>
+  </schema>
+</schemalist>
